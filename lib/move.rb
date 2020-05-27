@@ -6,8 +6,8 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def input_to_index(input)
-  x_as_int = input.to_i - 1
+def input_to_index(x)
+  x_as_int = x.to_i - 1
   return x_as_int
 end
 
